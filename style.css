@@ -1,0 +1,56 @@
+h1{
+    color: red;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+body{
+    background-color: whitesmoke;
+    border: 0px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px;
+    
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px; 
+ }
+
+.origami{
+    border-radius: 20px;
+    background-color: khaki;
+    padding: 10px;
+    margin: 10px;
+    width: 310px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title{
+    background-color: black;
+    border: 0px;
+}
+.bodyimg{
+    background-color: lightblue;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.origami:hover p{
+    opacity: 1;
+    color: turquoise;
+}
+
+
+.origami:hover img{
+    opacity: 0.33;
+}
